@@ -4,30 +4,49 @@
   <head>
     <!-- Link your CSS stylesheet -->
     <link rel="stylesheet" href="index.css" />
-  </head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="/site.webmanifest"> 
+</head>
   <body>
     <section>
       <header>
         <nav>
-          <a href="#bilgiedinin"> Bilgi Edinin </a>
-          <a href="#karsilastirin"> Karşılaştırın</a>
-          <a href="#geziniziplanlayın"> Gezinizi Planlayın</a>
+          <a class="geziniziplanlayın" href="#geziniziplanlayın">Gezinizi Planlayın</a>
+          <a class="bilgi-edinin" href="#bilgiedinin"> Bilgi Edinin </a>
+          <a class="karsilastirin" href="#karsilastirin"> Karşılaştırın</a>
+           
         </nav>
 
         <!-- "header_img.jpg" -->
-        <img src="assets\header_img.jpg" alt="header balon" />
+        <div class="tanitim-kismi">
+        <img class="headerbaloon" src="assets\header_img.jpg" alt="header balon" />
+<article class="tanitim-metini">
+  
+        <h1 id="tanitim">Peri Bacaları Tanıtımı</h1>
 
-        <h1>Peri Bacaları Tanıtımı</h1>
-
-        <p>
-          Gelin ve Nevşehir'in gizli güzelliklerini keşfedin. Sürekli açık.
-          Ziyaret için rezervasyona gerek yoktur.
+        <p><h3>
+          Gelin ve Nevşehir'in gizli güzelliklerini keşfedin. <p>Sürekli açık.
+          Ziyaret için rezervasyona gerek yoktur.</p></h3>
+        </div>
+        </article>
         </p>
+      
       </header>
     </section>
 
     <section>
-      <article>
+      <article class="anametin-article" >
+        <div class="anametin">
         <p>
           Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan
           Kapadokya’yı gezerken derin bir merak duyduğunuzu biliyoruz. ‘ Peri
@@ -41,15 +60,17 @@
           havasının da şöyle düşündürdüğü biliyoruz; ‘Kapadokya eskiden
           perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
         </p>
+      </div>
       </article>
     </section>
 
     <section>
+      <div class="content" >
       <!--  "hot-air-balloon.svg" -->
+<div class="balon" >
+      <img class="svg" src="assets\hot-air-balloon.svg" alt="kucuk balon" />
 
-      <img src="assets\hot-air-balloon.svg" alt="kucuk balon" />
-
-      <article>
+      <article class="content-metin">
         <p>
           Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak
           hava balonları ile yapılan turlar. Her sabah gün doğumundan önce
@@ -58,11 +79,11 @@
           gerçekten <strong> olağanüstü ve rüya gibi bir deneyim.</strong>
         </p>
       </article>
-
+    
       <!--  "atv.svg" -->
 
-      <img src="assets\atv.svg" alt="atv" />
-
+      <img class="svg" src="assets\atv.svg" alt="atv" />
+      <article class="content-metin">
       <p>
         ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı
         bir yoludur. Bölgenin eşsiz ve muhteşem vadileri,
@@ -70,15 +91,18 @@
         fırsat verir. ATV turlarının herkes için uygun bir aktivite olduğunu
         söylemeliyiz.
       </p>
+    </article>
+  </div>
+    </div>
     </section>
     <section>
       <footer>
+        <div class="image-container"></div>
         <!-- "footer_img.png" -->
-        <img src="assets\footer_img.jpg" alt="footer_img" />
         <nav>
-          <a href="#bilgiedinin"> Bilgi Edinin </a>
-          <a href="#karsilastirin"> Karşılaştırın</a>
-          <a href="#geziniziplanlayın"> Gezinizi Planlayın</a>
+          <a class="geziniziplanlayın" href="#geziniziplanlayın">Gezinizi Planlayın</a>
+          <a class="bilgi-edinin" href="#bilgiedinin"> Bilgi Edinin </a>
+          <a class="karsilastirin" href="#karsilastirin"> Karşılaştırın</a>
         </nav>
       </footer>
     </section>
